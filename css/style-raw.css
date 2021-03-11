@@ -1,11 +1,12 @@
 body {
-    background-color: #252525;
+    background-color: #252c26;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: 'Varela Round', sans-serif;
+    font-size: 22px;
 }
 
 body,
@@ -44,9 +45,6 @@ h2 {
 
 /* LINKS */
 
-.links {
-    font-size: 0.8rem;
-}
 
 .links a {
     display: block;
@@ -60,25 +58,17 @@ h2 {
 
 .links a:hover {
     display: block;
-    color: #FAFAFA;
-    background-color: #4c3a69;
+    color: #544c62;
+    background-color: #9fc7be;
 }
 
-/* SOCIAL */
 
-.social {
-    display: flex;
-    margin: 1rem;
-    font-size: 1.5rem;
-}
-
-.social li a {
-    margin: 0rem 0.5rem;
-    padding: 0.5rem;
-}
-
-.social li a:hover {
-    color: #4c3a69;
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
 }
 
 /* MOBILE */
